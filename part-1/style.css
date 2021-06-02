@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid lightgrey;
+    padding: 10px 10px;
+}
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: yellow;
+    padding: 2px 4px;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
+.message {
+    width: 100%;
+    margin-top: 10px;
+}

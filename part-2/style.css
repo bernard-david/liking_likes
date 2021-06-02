@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* outline: 1px dotted red; */
+}
+nav {
+    min-height: 50px;
+    background-color: black;
+}
+#network h1 {
+    color: white;
+    
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.content {
+    display: flex;
+    gap: 2em;
+
+}
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+    border: 2px solid black;
+}
+section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+aside img {
+    width: 100px;
+}
+.friend {
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+.friend div {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: yellow;
+    padding: 2px 4px;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
+.message {
+    width: 100%;
+    margin-top: 10px;
+}
